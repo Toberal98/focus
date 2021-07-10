@@ -10,7 +10,7 @@ const Nav = ({saldo}) => (
           <h3 >Vending Machine</h3>
         </div>
         <div className="Vending2">
-          <h3 >Saldo: ${saldo}</h3>
+          <h3 >Saldo: ${saldo.toFixed(2)}</h3>
         </div>
       </div>
     </nav>
