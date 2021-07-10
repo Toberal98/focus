@@ -4,3 +4,11 @@ export function updateProduct(item){
     item:item
   }
 }
+
+
+export function addProduct(item){
+  return{
+    type:"ADD_MYPRODUCTS",
+    item:item
+  }
+}
