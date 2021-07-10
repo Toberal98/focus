@@ -1,0 +1,11 @@
+@import './components/Productos/style';
+@import './components/nav/nav';
+@import  './views/home/home';
+
+body{
+  background-color: red;
+}
+.contenedor-product{
+  background-color: #300C0C;
+  margin-top: 15px;
+}

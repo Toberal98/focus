@@ -1,0 +1,39 @@
+.imagen-producto {
+  height: 400px;
+}
+
+.producto {
+  height: 250px !important;
+}
+
+.navb {
+  background-color: #030303;
+  width: 100%;
+}
+
+.Vending {
+  margin-left: 500px;
+}
+
+.Vending h3 {
+  color: #fff;
+}
+
+.Vending2 h3 {
+  color: #fff;
+}
+
+.pro h3 {
+  font-size: 40px;
+  color: #fff;
+  margin-top: 15px;
+}
+
+body {
+  background-color: red;
+}
+
+.contenedor-product {
+  background-color: #300C0C;
+  margin-top: 15px;
+}
