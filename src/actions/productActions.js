@@ -12,3 +12,10 @@ export function addProduct(item){
     item:item
   }
 }
+
+export function restarSaldo(item){
+  return{
+    type:"RESTAR_SALDO",
+    item:item
+  }
+}

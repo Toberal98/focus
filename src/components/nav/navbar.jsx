@@ -1,7 +1,8 @@
 import React from 'react';
 import {Navl} from 'react-bootstrap'
+import {connect} from 'react-redux'
 
-const Nav = () => (
+const Nav = ({saldo}) => (
     <>
     <nav className="navbar navbar-dark bg-dark">
       <div className="container-fluid ">
@@ -9,11 +10,17 @@ const Nav = () => (
           <h3 >Vending Machine</h3>
         </div>
         <div className="Vending2">
-          <h3 >Saldo: $10.00</h3>
+          <h3 >Saldo: ${saldo}</h3>
         </div>
       </div>
     </nav>
     </>
 )
 
-export default Nav
+function mapStateToProps(state, props){
+  return{
+    saldo: state.saldo
+  }
+}
+
+export default connect(mapStateToProps)(Nav)
